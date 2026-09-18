@@ -50,7 +50,7 @@ The five personality dimensions were Agreeableness, Conscientiousness, Extravers
 
 ```{r}
 
-#| label: prepare-data
+#| label: prepare- data
 
 # Score the five BFI scales.
 # scoreItems() also provides scale reliability estimates.
@@ -159,7 +159,7 @@ Before fitting the models, cases with missing values on the variables required b
 
 #| label: regression-data
 
-model_data <- bfi_analysis |>
+model_datai_had_to_uninstall_and_redownload_R_to_make_this_lab_work_a_2023_version_of_R_would_not_work <- bfi_analysis |>
   select(
     Neuroticism,
     age,
